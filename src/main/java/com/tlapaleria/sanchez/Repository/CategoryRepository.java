@@ -1,0 +1,7 @@
+package com.tlapaleria.sanchez.Repository;
+
+import com.tlapaleria.sanchez.Models.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
